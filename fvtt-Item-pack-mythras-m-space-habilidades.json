@@ -1,0 +1,1383 @@
+{
+  "package": "world.m-space-habilidades",
+  "metadata": {
+    "label": "M-Space habilidades",
+    "type": "Item",
+    "name": "m-space-habilidades",
+    "path": "packs/m-space-habilidades",
+    "system": "mythras",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "flags": {},
+    "package": "world",
+    "id": "world.m-space-habilidades",
+    "packageType": "world",
+    "packageName": "lejos-del-hogar"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Juego",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "2KnZRGzMiCrEyTsf"
+    },
+    {
+      "name": "Comerciar",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "2UkWnKbqKxTQpDQl"
+    },
+    {
+      "folder": null,
+      "name": "Astrogación",
+      "type": "standardSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1715595107516,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "3KCamdXpWxnSlQBk"
+    },
+    {
+      "name": "Seducción",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "4Noz3hhsAYVmaAuh"
+    },
+    {
+      "folder": null,
+      "name": "Traje espacial",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463782536,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "4RGCJywgiMA0Zsau"
+    },
+    {
+      "folder": null,
+      "name": "Demoliciones",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463252425,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "5Xp0Hl2h5O0nBM8K"
+    },
+    {
+      "name": "Navegación",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "con",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "6RCEGBQQ5gUE0f0M"
+    },
+    {
+      "name": "Idioma (Definir)",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "8aZ99Sf5owErd982"
+    },
+    {
+      "folder": null,
+      "name": "Investigación",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463334177,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "AHhWE8HcQbpAK3Z4"
+    },
+    {
+      "name": "Oratoría",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "pow",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "Bq7xDcgsB81eynRY"
+    },
+    {
+      "folder": null,
+      "name": "Ciencia (Robótica)",
+      "type": "standardSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1715595165322,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "DFK5WYTomnvwa9fT"
+    },
+    {
+      "name": "Supervivencia",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "con",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "DQ5Ql974f5CWqInB"
+    },
+    {
+      "name": "Forzar cerraduras",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "dex",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "EGobwUKRe5W18jvf"
+    },
+    {
+      "name": "Enseñar",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "F9Pwrx2wRdv4dZmg"
+    },
+    {
+      "name": "Actuar",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "cha",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "G3cl8hfTofxa2It4"
+    },
+    {
+      "folder": null,
+      "name": "Ciencia ()",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463214455,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "IbpSBRVliXvvEHEE"
+    },
+    {
+      "name": "Juego de manos",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "Ilimp2fPb9w3P45S"
+    },
+    {
+      "folder": null,
+      "name": "Comunicaciones",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463235617,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "J6dIXqWLplwRKFgG"
+    },
+    {
+      "name": "Arte (Definir)",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "pow",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "Jzyruicgm77yKsmT"
+    },
+    {
+      "name": "Disfraz",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "KyFJ246lVEATU5M5"
+    },
+    {
+      "folder": null,
+      "name": "Orientación",
+      "type": "standardSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1715595439286,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "LS6ZtwetJSh62iY2"
+    },
+    {
+      "folder": null,
+      "name": "Ciencia (Cibernética)",
+      "type": "standardSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1715595146806,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "LlIGfbaYLLWtRkkR"
+    },
+    {
+      "folder": null,
+      "name": "Política",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463390859,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "P9JFTQsHv9vEyyvE"
+    },
+    {
+      "name": "Cultura (Definir)",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "Rpley0WJ7PgnJUQl"
+    },
+    {
+      "name": "Callejeo",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "pow",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "VgLu4RCMDFqkgLRE"
+    },
+    {
+      "name": "Rastrear",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "con",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "Ynm9a0ZcOE1WcXNk"
+    },
+    {
+      "name": "Medicina",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "ZCeHK2KxGcpz7lVT"
+    },
+    {
+      "folder": null,
+      "name": "Informática",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463325635,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "ZDQOX8AXFLaEkRan"
+    },
+    {
+      "folder": null,
+      "name": "Electrónica",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463273143,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "ZdWH6dteJ9LRmPrV"
+    },
+    {
+      "folder": null,
+      "name": "Falsificación",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463298681,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "ani2wRqE1XYK5TEZ"
+    },
+    {
+      "name": "Artesanía (Definir)",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "dJkE8u1beBZZLAAq"
+    },
+    {
+      "name": "Mecánica",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "dl76lohecCMPTa3m"
+    },
+    {
+      "folder": null,
+      "name": "Cero G",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "dex",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463864286,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "gFz8P7bvveqmUNYh"
+    },
+    {
+      "name": "Burocracia",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "jhU1j40QqRBmE3dH"
+    },
+    {
+      "folder": null,
+      "name": "Sensores",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "pow",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463410515,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "joV2RtaKR4T5xHQV"
+    },
+    {
+      "name": "Acrobacias",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "str",
+        "secondaryChar": "dex",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "lKOym3aYDXHKsqgD"
+    },
+    {
+      "name": "Cortesía",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "qWnschisXAfVg3h3"
+    },
+    {
+      "name": "Saber (Definir)",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "riUcsG3R74xaqtpn"
+    },
+    {
+      "name": "Música",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "cha",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "sevYAlbo5i8tDwJE"
+    },
+    {
+      "folder": null,
+      "name": "Pilotaje (Astronave)",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463364998,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "tzvOXhBsgMHaV0Xf"
+    },
+    {
+      "folder": null,
+      "name": "Pilotaje ()",
+      "type": "professionalSkill",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": "",
+        "primaryChar": "dex",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704463364998,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "vKjzg2a24fawpWHQ"
+    },
+    {
+      "name": "Ingeniería",
+      "type": "professionalSkill",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "system": {
+        "description": "",
+        "primaryChar": "int",
+        "secondaryChar": "int",
+        "baseVal": {
+          "value": 0,
+          "init": 0
+        },
+        "trainingVal": "0",
+        "miscBonus": "0",
+        "totalVal": 0,
+        "trained": false,
+        "fumbled": false
+      },
+      "img": "icons/svg/book.svg",
+      "folder": null,
+      "_stats": {
+        "systemId": "mythras",
+        "systemVersion": "2.2.5",
+        "coreVersion": "11.315",
+        "createdTime": 1704462240620,
+        "modifiedTime": 1715595559771,
+        "lastModifiedBy": "zZtOJiBFA2RhiFig"
+      },
+      "_id": "vTpqtODMONUIw2Xx"
+    }
+  ],
+  "source": {
+    "world": "lejos-del-hogar",
+    "system": "mythras",
+    "version": {
+      "core": "11.315",
+      "system": "2.2.5"
+    }
+  },
+  "folders": []
+}
